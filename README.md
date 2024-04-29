@@ -33,9 +33,9 @@ We build the model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, 
 We compile the model to fit the train sets and validation sets.
 
 ## PROGRAM
-Developed By: **PRAVINRAJJ G.K**
+Developed By: **JAISON RAPHAEL**
 <br/>
-Register Number: **212222240080**
+Register Number: **212221230038**
 
 ### Libraries
 ```py
