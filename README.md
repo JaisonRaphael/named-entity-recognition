@@ -172,10 +172,7 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-<img height=45% width=50% src=https://github.com/Pravinrajj/named-entity-recognition/assets/117917674/e3d63122-99b8-4b6e-bb9d-4c013f379eae>
-<img height=45% width=50% src=https://github.com/Pravinrajj/named-entity-recognition/assets/117917674/be461741-8b7e-4396-a3b1-33805404dddc>
 
 ### Sample Text Prediction
-![image](https://github.com/Pravinrajj/named-entity-recognition/assets/117917674/d321c715-582a-40b4-991d-f471954af270)
 ## RESULT
 Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
