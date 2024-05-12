@@ -30,8 +30,8 @@ Plot the Stock prediction plot
 ## PROGRAM
 
 ~~~py
-### NAME : JAISON RAPHAEL V
-### REG NO : 212221230038
+NAME : JAISON RAPHAEL V
+REG NO : 212221230038
 ~~~
 
 ### Importing Libraries
