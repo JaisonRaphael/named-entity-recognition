@@ -30,8 +30,8 @@ Plot the Stock prediction plot
 ## PROGRAM
 
 ~~~py
-Developed by: RAMA E.K. LEKSHMI
-Reg No:212222240082
+### NAME : JAISON RAPHAEL V
+### REG NO : 212221230038
 ~~~
 
 ### Importing Libraries
@@ -147,8 +147,8 @@ history = model.fit(
     batch_size=32, 
     epochs=3,
 )
-print("RAMA E.K. LEKSHMI")
-print("212222240082")
+print("JAISON RAPHAEL V")
+print("212221230038")
 metrics = pd.DataFrame(model.history.history)
 metrics.head()
 metrics[['accuracy','val_accuracy']].plot()
@@ -158,8 +158,8 @@ metrics[['loss','val_loss']].plot()
 ### Prediction Sequence
 
 ```py
-print("RAMA E.K. LEKSHMI")
-print("212222240082")
+print("JAISON RAPHAEL V")
+print("212221230038")
 i = 79
 p = model.predict(np.array([X_test[i]]))
 p = np.argmax(p, axis=-1)
@@ -174,13 +174,13 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![DL 6 A](https://github.com/Rama-Lekshmi/named-entity-recognition/assets/118541549/f05a1175-d73c-4c35-90e0-914fe135d6df)
+![DL11](https://github.com/JaisonRaphael/named-entity-recognition/assets/94165957/9abb504a-b936-4195-a8d1-70a8f016f6f1)
 
-![DL 6B](https://github.com/Rama-Lekshmi/named-entity-recognition/assets/118541549/967424b1-98f4-41e4-a825-56afa730b696)
+![DL12](https://github.com/JaisonRaphael/named-entity-recognition/assets/94165957/678eeba4-4dce-4db6-93d7-7a2e58ece17f)
 
 ### Sample Text Prediction
+![DL33](https://github.com/JaisonRaphael/named-entity-recognition/assets/94165957/f281b6f6-f5e0-4642-b18f-5a4610171ac9)
 
-![DL 6C](https://github.com/Rama-Lekshmi/named-entity-recognition/assets/118541549/aa31471d-d13a-4d8c-8af3-abdf27e11ef4)
 
 ## RESULT
 
